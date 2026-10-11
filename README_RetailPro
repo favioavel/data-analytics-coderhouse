@@ -1,0 +1,105 @@
+# RetailPro --- Proyecto de Data Analytics
+
+## Descripción
+
+RetailPro es un proyecto académico desarrollado en el curso de Data
+Analytics de Coderhouse. El objetivo es practicar el análisis de
+información comercial mediante consultas SQL y herramientas de análisis
+y visualización, para transformar datos de ventas en información útil
+para la toma de decisiones.
+
+El repositorio reúne las entregas y los archivos de trabajo del
+proyecto.
+
+## Objetivos de análisis
+
+-   Consultar y relacionar información de ventas, clientes, productos y
+    categorías.
+-   Calcular métricas comerciales, como facturación, cantidad de ventas
+    y ticket promedio.
+-   Identificar productos destacados, clientes recurrentes y productos o
+    clientes sin ventas.
+-   Preparar información que pueda utilizarse para el análisis y la
+    visualización en Power BI.
+
+## Herramientas utilizadas
+
+-   **SQL Server:** creación y ejecución de consultas SQL.
+-   **SQL:** consultas con `SELECT`, agregaciones, `JOIN`, `LEFT JOIN`,
+    `UNION ALL`, subconsultas y funciones de ventana.
+-   **Power BI:** herramienta de análisis y visualización utilizada en
+    el desarrollo del proyecto.
+-   **GitHub:** almacenamiento y organización de los archivos y
+    entregas.
+-   **Asistencia de IA:** apoyo para revisar consultas, documentar
+    decisiones y proponer insights, con validación crítica de los
+    resultados.
+
+## Estructura del repositorio
+
+``` text
+data-analytics-coderhouse/
+├── RetailPro/
+└── sql-checkpoint/
+```
+
+-   `RetailPro/`: carpeta de trabajo y entregables asociados al proyecto
+    RetailPro.
+-   `sql-checkpoint/`: scripts y ejercicios SQL desarrollados durante
+    los módulos del curso.
+
+## Cómo ejecutar los scripts SQL
+
+1.  Instalar o abrir **SQL Server Management Studio (SSMS)** y
+    conectarse a una instancia de SQL Server.
+2.  Verificar que la base de datos `Ventas_Tech_DB` exista. Si todavía
+    no fue creada, ejecutar primero el script de creación de la base y
+    sus tablas correspondiente a la entrega.
+3.  Confirmar que las tablas requeridas estén creadas y contengan los
+    datos de prueba.
+4.  Abrir el archivo SQL que se desea ejecutar desde la carpeta
+    `sql-checkpoint/`.
+5.  Seleccionar la base de datos `Ventas_Tech_DB` en SSMS y ejecutar el
+    script.
+6.  Revisar los resultados y comprobar que los nombres de tablas y
+    columnas coincidan con el esquema utilizado.
+
+**Importante:** ejecutar los scripts en el orden indicado en los
+comentarios o instrucciones de cada entrega. Una consulta no podrá
+devolver resultados correctos si faltan tablas, columnas o datos
+requeridos.
+
+## Consultas y análisis
+
+Entre los análisis desarrollados se incluyen:
+
+-   Resumen mensual de facturación, cantidad de registros de venta y
+    ticket promedio.
+-   Ranking de productos por unidades vendidas y facturación.
+-   Identificación de clientes recurrentes.
+-   Detección de clientes y productos sin ventas.
+-   Comparación de la facturación mensual con el promedio.
+-   Consolidación de ventas mediante `UNION ALL`.
+
+Las conclusiones comerciales deben verificarse contra los resultados
+reales de las consultas. Una asociación o diferencia observada en los
+datos no demuestra por sí sola una causa ni permite inferir rentabilidad
+sin información de costos.
+
+## Criterios de validación
+
+-   Comprobar que las consultas se ejecuten sin errores.
+-   Revisar que los `JOIN` utilicen las claves correspondientes y no
+    dupliquen registros inesperadamente.
+-   Validar los cálculos de facturación y promedios con ejemplos
+    manuales.
+-   No presentar cifras ni tendencias que no puedan rastrearse hasta los
+    datos de origen.
+-   Utilizar las sugerencias de IA como apoyo y revisar técnicamente los
+    resultados antes de incorporarlos a una entrega.
+
+## Estado del proyecto
+
+Repositorio académico en desarrollo como parte de las entregas del curso
+de Data Analytics de Coderhouse. Los scripts y documentos se organizan
+por carpeta para facilitar su revisión y continuidad.
